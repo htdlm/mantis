@@ -1,0 +1,11 @@
+$g_allow_signup	 = ON;  //allows the users to sign up for a new account
+$g_enable_email_notification = ON; //enables the email messages
+$g_phpMailer_method = 2  //PHPMAILER_METHOD_SMTP;
+$g_smtp_host = 'smtp.gmail.com';
+$g_smtp_connection_mode = 'tls';
+$g_smtp_port = 587;
+$g_smtp_username = 'envia.mis.mails@gmail.com'; //replace it with your gmail address
+$g_smtp_password = 'kzgrhgglvyfdwgky'; //replace it with your gmail password
+$g_administrator_email = 'hector.trejo@gmail.com'; //this will be your administrator email addres
+$g_antispam_max_event_count = 0
+$g_antispam_time_window_in_seconds = 360000
